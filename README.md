@@ -3,7 +3,8 @@
 ## Overview
 
 JQAssistant Plugin for parsing XOJO:
-- [request for XOJOs grammar](https://forum.xojo.com/t/need-official-xojo-grammar-specification/65549)to parse it properly (and don't reverse engineer )
+- [request for XOJOs grammar](https://forum.xojo.com/t/need-official-xojo-grammar-specification/65549) to parse it properly 
+- [Use VBA Grammar as an example](https://github.com/antlr/grammars-v4/blob/master/vba/vba.g4)
  
 ### Possible use cases:
 - understand XOJO projects better
@@ -51,6 +52,16 @@ It will start a JVM, reading in text using STDIN, trying to parse anf if success
 The project is just setup. Contribution will be walcomed! 
 
 ## Colophon		
+
+### Used projects
+
+Thanks to the [ANTLR grammars project](https://github.com/antlr/grammars-v4) which collects grammars so that people can use them in their projects. Especially, the VBA grammar seems promising. 
+
+### Legal notice 
+
+XOJOs [EULA](https://w0ww.xojo.com/download/eula-full.php) forbids reverse engineering of "any part of the XOJO framework". However, We  argue that reading the source code for the sake of our own quality assessment is mandatory for a successful long term software development process. We are maintaining a big source code base with a lot of XOJO code so we are struggling without those quality metrics.
+Reading XOJO source code have been performed by other developers of the XOJO community as well so we think this is not an issue legally.
+As a closed environment, XOJO struggles keeping up with modern programming environments. This tool could be a helping hand for many teams. 
 
 ### License 
 
